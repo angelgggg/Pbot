@@ -172,9 +172,9 @@ async def bkiss(ctx):
 
 @bot.group()
 async def info():
-        await bot.say('')
+        await bot.say('https://github.com/angelgggg/Pbot')
+        await bot.say('origginal code creator is Demon#7374')
 
-#online confirmation
 @bot.event
 async def on_ready():
    await bot.change_presence(game=Game(name="+help"))
